@@ -1,0 +1,55 @@
+{
+  "name": "simplerest",
+  "description": "Create a fully-fletched REST-Service by simply providing a coffeescriptclass-like javascript function, routes and a formal description of your models in swagger.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/manuelschneider/simplerest",
+  "author": {
+    "name": "Manuel Schneider",
+    "email": "scriptlets@efreetsystems.de",
+    "url": "http://www.efreetsystems.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manuelschneider/simplerest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manuelschneider/simplerest/issues"
+  },
+  "licenses": [
+    {
+      "type": "LGPL-3",
+      "url": "https://github.com/manuelschneider/simplerest/blob/master/LICENSE-LGPL-3"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.24"
+  },
+  "scripts": {},
+  "dependencies": {
+    "source-map-support": "~0.2.5",
+    "fs.extra": "~1.2.1",
+    "execSync": "~1.0.1-pre",
+    "cson": "~1.4.5",
+    "wrench": "~1.5.7",
+    "MD5": "~1.2.0",
+    "bunyan": "~0.22.1",
+    "selfsigned": "~1.2.0",
+    "restify": "~2.6.1",
+    "swagger-node-restify": "git://github.com/manuelschneider/swagger-node-restify.git#master",
+    "json-gate": "~0.8.21"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-banner": "~0.2.0",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-watch": "~0.4.0"
+  },
+  "keywords": [],
+  "files": [
+    "LICENSE-LGPL-3",
+    "tasks",
+    "lib"
+  ]
+}
